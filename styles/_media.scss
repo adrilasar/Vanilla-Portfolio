@@ -1,0 +1,151 @@
+@media screen and (max-width: 1500px) {
+    section{
+        padding: 3rem 15rem;
+    }
+    .header-content .right-header{
+        padding-right: 15rem;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    section{
+        padding: 3rem 11rem;
+    }
+    .header-content .right-header{
+        padding-right: 11rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .about-cont{
+        grid-template-columns: 1fr;
+        padding-top: 2.5rem;
+            .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+
+    .about-stats{
+        .progress-bars{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    section{
+        padding: 2.5rem 12rem;
+    }
+    .header-content .right-header{
+        padding-right: 12rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolios{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header{
+        padding: 0 !important;
+    }
+
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+    }
+
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .right-header{
+        grid-row: 1;
+        padding: 1.5rem !important;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+            font-size: 2.3rem !important;
+            text-align: center;
+            padding-top: 3rem;
+        }
+    }
+    .header-content .left-header .image{
+        margin: 0 auto;
+        width: 60% !important;
+    }
+
+    .container{
+        padding: 2rem 2.5rem;
+    }
+
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .blogs{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .contact{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+    .contact .right-contact .i-c-2{
+        flex-direction: column;
+    }
+    .contact .right-contact .i-c-2 :last-child{
+        margin-left: 0rem;
+        margin-top: 1.5rem;
+    }
+
+    .main-title{
+        h2{
+            font-size: 2.5rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 4rem;
+            }
+        }
+    }
+
+    .controlls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-0);
+        .control{
+            margin: 1rem .3rem;
+        }
+    }
+}
