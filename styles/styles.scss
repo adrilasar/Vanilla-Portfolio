@@ -10,6 +10,7 @@
     --color-secondary: #521caf;
     
     --background-color: #fafafa;
+    --home-background: #ffffff;
     --color-header: #000;
 
     --color-white: #FFFFFF;
@@ -48,6 +49,7 @@
 .dark-mode{
     --color-primary: #7E55C2;
     --background-color: #000;
+    --home-background: #000;
     --color-header: rgb(255, 255, 255);
 
     --color-text-1: rgba(255, 255, 255, 0.90);
@@ -97,7 +99,7 @@ header{
     color: var(--color-header);
     overflow: hidden;
     padding: 0 !important;
-    background: var(--color-white);
+    background: var(--home-background);
 }
 
 section{
@@ -312,7 +314,7 @@ section{
         box-shadow:.8rem .8rem 1.4rem var(--color-bg-2), 
                     -.2rem -.2rem 1.8rem var(--color-bg-1);
         padding: 3rem;
-        margin: 4rem;
+        margin-bottom: 6rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 5rem;
@@ -384,65 +386,23 @@ section{
                         background-color: var(--color-primary);
                         transition: var(--transition);
                     }
-                    .html{
-                        width: 70%;
-                    }
-                    .css{
-                        width: 60%;
-                    }
-                    .js{
-                        width: 50%;
-                    }
-                    .git{
-                        width: 60%;
-                    }
                     .flutter{
+                        width: 70%;
+                    }
+                    .next{
                         width: 60%;
                     }
-                    .java{
-                        width: 70%;
-                    }
-                    .csharp{
-                        width: 40%;
-                    }
-                    .unity{
-                        width: 30%;
-                    }
-                    .docker{
-                        width: 30%;
-                    }
-                    .sql{
-                        width: 70%;
-                    }
-                    .vb{
+                    .kotlin{
                         width: 50%;
                     }
-                    .python{
-                        width: 40%;
+                    .mods{
+                        width: 60%;
                     }
-                    .bash{
-                        width: 50%;
+                    .reactn{
+                        width: 60%;
                     }
-                    .net{
-                        width: 40%;
-                    }
-                    .typescript{
-                        width: 1%;
-                    }
-                    .firebase{
-                        width: 1%;
-                    }
-                    .reactjs{
-                        width: 1%;
-                    }
-                    .nodejs{
-                        width: 1%;
-                    }
-                    .mongodb{
-                        width: 1%;
-                    }
-                    .expressjs{
-                        width: 1%;
+                    .shopify{
+                        width: 70%;
                     }
                 }
             }

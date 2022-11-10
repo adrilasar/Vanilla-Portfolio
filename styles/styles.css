@@ -9,6 +9,7 @@
   --color-primary: #7E55C2;
   --color-secondary: #521caf;
   --background-color: #fafafa;
+  --home-background: #ffffff;
   --color-header: #000;
   --color-white: #FFFFFF;
   --color-p-2: #B555C2;
@@ -41,6 +42,7 @@
 .dark-mode {
   --color-primary: #7E55C2;
   --background-color: #000;
+  --home-background: #000;
   --color-header: rgb(255, 255, 255);
   --color-text-1: rgba(255, 255, 255, 0.90);
   --color-text-2: rgba(0, 0, 0, 0.73);
@@ -85,7 +87,7 @@ header {
   color: var(--color-header);
   overflow: hidden;
   padding: 0 !important;
-  background: var(--color-white);
+  background: var(--home-background);
 }
 
 section {
@@ -302,7 +304,7 @@ section {
   border-radius: 5px;
   box-shadow: 0.8rem 0.8rem 1.4rem var(--color-bg-2), -0.2rem -0.2rem 1.8rem var(--color-bg-1);
   padding: 3rem;
-  margin: 4rem;
+  margin-bottom: 6rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 5rem;
@@ -379,65 +381,23 @@ section {
   background-color: var(--color-primary);
   transition: var(--transition);
 }
-.about-stats .progress-bars .progress-bar .progress-cont .progress .html {
-  width: 70%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .css {
-  width: 60%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .js {
-  width: 50%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .git {
-  width: 60%;
-}
 .about-stats .progress-bars .progress-bar .progress-cont .progress .flutter {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-cont .progress .next {
   width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-cont .progress .java {
-  width: 70%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .csharp {
-  width: 40%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .unity {
-  width: 30%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .docker {
-  width: 30%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .sql {
-  width: 70%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .vb {
+.about-stats .progress-bars .progress-bar .progress-cont .progress .kotlin {
   width: 50%;
 }
-.about-stats .progress-bars .progress-bar .progress-cont .progress .python {
-  width: 40%;
+.about-stats .progress-bars .progress-bar .progress-cont .progress .mods {
+  width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-cont .progress .bash {
-  width: 50%;
+.about-stats .progress-bars .progress-bar .progress-cont .progress .reactn {
+  width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-cont .progress .net {
-  width: 40%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .typescript {
-  width: 1%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .firebase {
-  width: 1%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .reactjs {
-  width: 1%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .nodejs {
-  width: 1%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .mongodb {
-  width: 1%;
-}
-.about-stats .progress-bars .progress-bar .progress-cont .progress .expressjs {
-  width: 1%;
+.about-stats .progress-bars .progress-bar .progress-cont .progress .shopify {
+  width: 70%;
 }
 
 .stat-title {
