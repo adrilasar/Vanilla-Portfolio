@@ -1,3 +1,9 @@
+@media screen and (max-width: 1600px) {
+    .skills .checkbox{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media screen and (max-width: 1500px) {
     section{
         padding: 3rem 15rem;
@@ -19,6 +25,11 @@
 @media screen and (max-width: 1200px) {
     .blogs{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .skills .checkbox{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 3rem;
+        grid-row-gap: 3.5rem;
     }
 }
 
@@ -60,6 +71,9 @@
 @media screen and (max-width: 1000px) {
     .portfolios{
         grid-template-columns: 1fr;
+    }
+    section{
+        padding: 2.5rem 9rem;
     }
 }
 

@@ -9,7 +9,7 @@
     --color-primary: #7E55C2;
     --color-secondary: #521caf;
     
-    --background-color: #FFFFFF;
+    --background-color: #fafafa;
     --color-header: #000;
 
     --color-white: #FFFFFF;
@@ -29,6 +29,12 @@
     --color-grey-4: #535353;
     --color-grey-5: #333333;
     --color-grey-6: #1c1c1c;
+
+    --color-btn-1: #fff;
+    --color-btn-2: #cccccc;
+    --color-bg-1: #fff;
+    --color-bg-2: #cccccc;
+    --softLight-1: rgba(230, 230, 230, 0.342);
 
     --br-sm-2: 14px;
     --box-shadow-1: 2px 4px 7px rgba(0,0,0,.1);
@@ -61,6 +67,12 @@
     --color-grey-1: #333333;
     --color-grey-0: #1c1c1c;
 
+    --color-btn-1: #1c1c1c;
+    --color-btn-2: #000;
+    --color-bg-1: #1c1c1cab;
+    --color-bg-2: #1c1c1c93;
+    --softLight-1: rgba(255, 255, 255, 0.068);
+
     --box-shadow-2: 1px 2px 15px rgba(255, 255, 255, .18);
     --box-shadow-2-ext: 1px 4px 15px rgba(255, 255, 255, .32);
 }
@@ -85,6 +97,7 @@ header{
     color: var(--color-header);
     overflow: hidden;
     padding: 0 !important;
+    background: var(--color-white);
 }
 
 section{
@@ -288,6 +301,52 @@ section{
             font-size: 2rem;
             color: var(--color-text-1);
             padding: 1rem;
+        }
+    }
+}
+
+// Skills
+.skills{
+    .checkbox {
+        border-radius: 5px;
+        box-shadow:.8rem .8rem 1.4rem var(--color-bg-2), 
+                    -.2rem -.2rem 1.8rem var(--color-bg-1);
+        padding: 3rem;
+        margin: 4rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 5rem;
+        grid-row-gap: 2.5rem;
+        align-items: center;
+        justify-items: center;
+        background: var(--softLight-1);
+        font-family: 'Poppins', sans-serif;
+        input { display: none; }
+        
+        &__1, &__2 {
+            width: 8rem;
+            display: flex;
+            justify-content: center;
+            label {
+                box-shadow: .3rem .3rem .6rem var(--color-btn-2), -.2rem -.2rem .5rem var(--color-btn-1);
+                cursor: pointer;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                    border-radius: .5rem;
+                    width: 2.8rem;
+                    height: 2.8rem;
+                    
+                &:hover i { color: var(--color-primary); }
+            
+                i {
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                    color: var(--color-grey-6);
+                    transition: .3s ease;
+                }
+            }
         }
     }
 }
