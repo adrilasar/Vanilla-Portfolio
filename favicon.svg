@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+	<title>Contorno AL</title>
+	<style>
+		.s0 { fill: none;stroke: #ffffff;stroke-width: 16 } 
+	</style>
+	<path id="Forma exterior" class="s0" d="m121 68h174v220h90v51h-136l-21-51h-107l-20 51h-84z"/>
+	<path id="Forma interior" class="s0" d="m201 223h-59l28-71z"/>
+</svg>
