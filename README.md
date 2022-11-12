@@ -1,4 +1,4 @@
-# Responsive ortfolio Example
+# Responsive Portfolio Example
 
 This is a simple portfolio website built with HTML, SCSS and Vanilla JavaScript.
 - Responsive design
