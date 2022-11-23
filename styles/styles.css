@@ -300,7 +300,7 @@ section {
   padding: 1rem;
 }
 
-.skills .checkbox {
+.skills .item {
   border-radius: 5px;
   box-shadow: 0.8rem 0.8rem 1.4rem var(--color-bg-2), -0.2rem -0.2rem 1.8rem var(--color-bg-1);
   padding: 3rem;
@@ -314,15 +314,15 @@ section {
   background: var(--softLight-1);
   font-family: "Poppins", sans-serif;
 }
-.skills .checkbox input {
+.skills .item input {
   display: none;
 }
-.skills .checkbox__1, .skills .checkbox__2 {
+.skills .item__1, .skills .item__2 {
   width: 8rem;
   display: flex;
   justify-content: center;
 }
-.skills .checkbox__1 label, .skills .checkbox__2 label {
+.skills .item__1 label, .skills .item__2 label {
   box-shadow: 0.3rem 0.3rem 0.6rem var(--color-btn-2), -0.2rem -0.2rem 0.5rem var(--color-btn-1);
   cursor: pointer;
   position: relative;
@@ -333,10 +333,10 @@ section {
   width: 2.8rem;
   height: 2.8rem;
 }
-.skills .checkbox__1 label:hover i, .skills .checkbox__2 label:hover i {
+.skills .item__1 label:hover i, .skills .item__2 label:hover i {
   color: var(--color-primary);
 }
-.skills .checkbox__1 label i, .skills .checkbox__2 label i {
+.skills .item__1 label i, .skills .item__2 label i {
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--color-grey-6);
@@ -784,7 +784,7 @@ section {
   font-size: 6.3rem;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1800px) {
   section {
     padding: 3rem 15rem;
   }
