@@ -231,6 +231,10 @@ section {
 .header-content .right-header .name span {
   color: var(--color-primary);
   white-space: nowrap;
+  background: -webkit-linear-gradient(var(--color-s-1), var(--color-s-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .header-content .right-header p {
   margin: 1.5rem 0;
